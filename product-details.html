@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iphone 12 Pro Max | Details</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+       <div class="container">
+          <div class="navbar">
+              <div class="logo">
+                  <a href="index.html"><img src="InspiredStreetLogo.png" width="125px"></a>
+              </div>
+              <nav>
+               <ul id="MenuItems">
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="products.html">Products</a></li>
+                   <li><a href="account.html">Account</a></li>
+               </ul>
+              </nav>
+              <a href="cart.html"><img src="Handlekurv.png" width="30px" height="30px"></a>
+              <img src="menu.png" onclick="menutoggle()" class="menu-icon">
+          </div>
+          
+       </div>
+       
+       
+<!--------------single-product--------------->
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="Iphone 12 pro max.png" width="100%" id="ProductImg">
+
+            
+        </div>
+        <div class="col-2">
+            <p>Home / Iphone 12 Pro Max</p>
+            <h1>Iphone 12 Pro Max</h1>
+            <h4>$1099.00</h4>
+            
+            <select>
+               <option>Select GB</option>
+               <option>64</option>
+               <option>124</option>
+               <option>256</option>
+               <option>512</option>
+           </select>
+            
+            <input type="number" value="1">
+            <a href="cart.html" class="btn">Add To Cart</a>
+            
+            <h3>PRODUCT DETAILS <i class="fa fa-indent"></i></h3>
+            <br>
+            <p>Give your summer photos a upgrade with the new Iphone 12 Pro max. It has 3 cameras and is the best on the market in 2021! If you  want to look just as good or even better than your friends, then this is a great choice!</p>
+        </div>
+    </div>
+</div>
+<!----------------- title -------------->
+<div class="small-container">
+   <div class="row row-2">
+       <h2>Related Products</h2>
+       <p>View More</p>
+   </div>
+    
+</div>
+    
+<!-------------- Our Products -------------->
+<div class="small-container">
+         
+             <div class="row">
+               <div class="col-4">
+                   <img src="Iphone 12 pro max.png">
+                   <h4>Iphone 12 Pro max</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p>$1099.00</p> 
+               </div> 
+               <div class="col-4">
+                   <img src="iphone-12-pro.png">
+                   <h4>Iphone 12 Pro</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                   </div>
+                   <p>$999.00</p>
+               </div> 
+               <div class="col-4">
+                   <img src="iphone-12-black-select-2020.png">
+                   <h4>Iphone 12</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                   </div>
+                   <p>$799.00</p>
+               </div> 
+                <div class="col-4">
+                   <img src="iphone-12-mini-red-select-2020.png">
+                   <h4>Iphone 12 Mini</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p>$699.00</p>
+               </div> 
+           </div>
+           
+       </div>
+  
+     
+   
+<!----------Footer---------------> 
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col1">
+               <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="Google-Play-App-Store-PNG-Photos.png">
+                </div>
+            </div>
+            <div class="footer-col2">
+               <img src="InspiredStreetLogo.png">
+            </div>
+            <div class="footer-col3">
+               <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col4">
+               <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter<li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </div>
+    
+</div>
+
+
+
+<!-------------js for toggle menu-------------->
+
+<script>
+    
+    var MenuItems = document.getElementById("MenuItems");
+    
+    MenuItems.style.maxHeight = "0px";
+    
+    function menutoggle()
+    {
+        if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }else
+            {
+                MenuItems.style.maxHeight = "0px"
+            } 
+    }
+    
+//-------------Produc Gallery------------
+    
+    var ProductImg = document.getElementById("ProductImg");
+    
+    var SmallImg = document.getElementsByClassName("small-img");
+       
+ 
+        SmallImg[0].onclick = function()
+        {
+            ProductImg.src = SmallImg[0].src;
+        }
+        SmallImg[1].onclick = function()
+        {
+            ProductImg.src = SmallImg[1].src;
+        
+        }
+        SmallImg[2].onclick = function()
+        {
+            ProductImg.src = SmallImg[2].src;
+        
+        }
+        SmallImg[3].onclick = function()
+        {
+            ProductImg.src = SmallImg[3].src;
+        
+        }
+
+  //-------------End Produc Gallery------------  
+    
+    
+    
+    
+</script>
+
+
+
+</body>
+</html>
+
