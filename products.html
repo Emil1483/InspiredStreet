@@ -1,273 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>All Products - RedStore | Ecommerce Website Design</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-       <div class="container">
-          <div class="navbar">
-              <div class="logo">
-                  <a href="index.html"><img src="InspiredStreetLogo.png" width="125px"></a>
-              </div>
-              <nav>
-               <ul id="MenuItems">
-                   <li><a href="index.html">Home</a></li>
-                   <li><a href="products.html">Products</a></li>
-                   <li><a href="account.html">Account</a></li>
-               </ul>
-              </nav>
-              <a href="cart.html"><img src="Handlekurv.png" width="30px" height="30px"></a>
-              <img src="menu.png" onclick="menutoggle()" class="menu-icon">
-          </div>
-          
-       </div>
-<!----------------- title -------------->
-<div class="small-container">
-   <div class="row row-2">
-       <h2>All Products</h2>
-       <select>
-           <option>Default Shorting</option>
-           <option>Short by price</option>
-           <option>Short by popularity</option>
-           <option>Short by rating</option>
-           <option>Short by sale</option>
-       </select>
-   </div>
-    
-             
-           <div class="row">
-               <div class="col-4">
-                   
-                   <a href="product-details.html"><img src="Iphone 12 pro max.png"></a>
-                   <h4><a href="product-details.html">Iphone 12 Pro Max</a></h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-o"></i>
-                   </div>
-                   <p>$1099.00</p>
-               </div> 
-               <div class="col-4">
-                   <img src="iphone-12-pro.png">
-                   <h4>Iphone 12 Pro</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-half-o"></i>
-                   </div>
-                   <p>$999.00</p>
-               </div> 
-               <div class="col-4">
-                   <img src="iphone-12-black-select-2020.png">
-                   <h4>Iphone 12</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-half-o"></i>
-                   </div>
-                   <p>$899.00</p>
-               </div> 
-                <div class="col-4">
-                   <img src="iphone-12-mini-red-select-2020.png">
-                   <h4>Iphone 12 mini</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-o"></i>
-                   </div>
-                   <p>$699.00</p>
-               </div> 
-           </div>
-            
-             <div class="row">
-               <div class="col-4">
-                   <img src="Samsung s21 ultra - Copy.png">
-                   <h4>Samsung S21 Ultra</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-o"></i>
-                   </div>
-                   <p>$1099.00</p>
-               </div> 
-               <div class="col-4">
-                   <img src="samsung-galaxy-s21-5g-sm-g9910-purple-1.jpg">
-                   <h4>Samsung S21</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-half-o"></i>
-                   </div>
-                   <p>$999.00</p>
-               </div> 
-               <div class="col-4">
-                   <img src="Samsung Galaxy Z Fold.png">
-                   <h4>Samsung Galaxy Z Fold</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-half-o"></i>
-                   </div>
-                   <p>$1399.00</p> 
-               </div> 
-                <div class="col-4">
-                   <img src="Samsung Galaxy M12 - Copy.png">
-                   <h4>Samsung Galaxy M12</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-o"></i>
-                   </div>
-                   <p>$799.00</p>
-               </div> 
-           </div>
-           
-           <div class="row">
-               <div class="col-4">
-                   <img src="One Plus 9 Pro 5G.png">
-                   <h4>One Plus 9 Pro 5G</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-o"></i>
-                   </div>
-                   <p>$999.00</p> 
-               </div> 
-               <div class="col-4">
-                   <img src="One Plus Nord N10 5G">
-                   <h4>One Plus Nord N10 5G</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-half-o"></i>
-                   </div>
-                   <p>$299.00</p>
-               </div> 
-               <div class="col-4">
-                   <img src="one plus nord 5g.png">
-                   <h4>One Plus Nord 5G</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-half-o"></i>
-                   </div>
-                   <p>$499.00</p>
-               </div> 
-                <div class="col-4">
-                   <img src="One Plus Nord N100.png">
-                   <h4>One Plus Nord N100</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-o"></i>
-                   </div>
-                   <p>$199.00</p>
-               </div> 
-           </div>
-           
-           <div class="page-btn">
-              <span>1</span>
-              <span>2</span>
-              <span>3</span>
-              <span>4</span>
-              <span>&#8594;</span>
-          </div>
-</div>
-    
-<!----------Footer---------------> 
-
-<div class="footer">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
     <div class="container">
-        <div class="row">
-            <div class="footer-col1">
-               <h3>Download Our App</h3>
-                <p>Download App for Android and ios mobile phone.</p>
-                <div class="app-logo">
-                    <img src="Google-Play-App-Store-PNG-Photos.png">
-                </div>
-            </div>
-            <div class="footer-col2">
-               <img src="InspiredStreetLogo.png">
-            </div>
-            <div class="footer-col3">
-               <h3>Useful Links</h3>
-                <ul>
-                    <li>Coupons</li>
-                    <li>Blog Post</li>
-                    <li>Return Policy</li>
-                    <li>Join Affiliate</li>
-                </ul>
-            </div>
-            <div class="footer-col4">
-               <h3>Follow Us</h3>
-                <ul>
-                    <li>Facebook</li>
-                    <li>Twitter<li>
-                    <li>Instagram</li>
-                    <li>YouTube</li>
-                </ul>
-            </div>
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="InspiredStreetLogo.png" width="125px"
+          /></a>
         </div>
-        <hr>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="account.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html"
+          ><img src="Handlekurv.png" width="30px" height="30px"
+        /></a>
+        <img src="menu.png" onclick="menutoggle()" class="menu-icon" />
+      </div>
     </div>
-    
-</div>
+    <!----------------- title -------------->
+    <div class="small-container">
+      <div class="row">
+        <h1>Search products</h1>
+        <form action="" class="search-form" id="search-form">
+          <input type="text" name="search" id="" />
+          <button type="submit">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+      </div>
+      <div class="row row-2">
+        <h2>All Products</h2>
+        <select id="sort-selector">
+          <option>default sorting</option>
+          <option>sort by price</option>
+          <option>sort by popularity</option>
+          <option>sort by rating</option>
+          <option>sort by sale</option>
+        </select>
+      </div>
 
+      <div id="products" class="row"></div>
 
+      <div class="page-btn" id="page-buttons"></div>
+    </div>
 
+    <!----------Footer--------------->
 
-<!-------------js for toggle menu-------------->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and ios mobile phone.</p>
+            <div class="app-logo">
+              <img src="Google-Play-App-Store-PNG-Photos.png" />
+            </div>
+          </div>
+          <div class="footer-col2">
+            <img src="InspiredStreetLogo.png" />
+          </div>
+          <div class="footer-col3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li></li>
+              <li>Instagram</li>
+              <li>YouTube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
 
-<script>
-    
-    var MenuItems = document.getElementById("MenuItems");
-    
-    MenuItems.style.maxHeight = "0px";
-    
-    function menutoggle()
-    {
-        if(MenuItems.style.maxHeight == "0px")
-            {
-                MenuItems.style.maxHeight = "200px";
-            }else
-            {
-                MenuItems.style.maxHeight = "0px"
-            } 
-    }
-    
-</script>
+    <!-------------js for toggle menu-------------->
+    <script src="./scripts/paginate.js"></script>
+    <script src="./scripts/loadJsonData.js"></script>
+    <script src="./scripts/renderProducts.js"></script>
+    <script src="./scripts/sortProducts.js"></script>
+    <script src="./scripts/searchFormHandler.js"></script>
+    <script src="./scripts/eventListeners.js"></script>
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
 
+      MenuItems.style.maxHeight = "0px";
 
-
-</body>
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
 </html>
-

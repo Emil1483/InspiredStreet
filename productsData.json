@@ -3,7 +3,8 @@
     "name": "Iphone 12 Pro Max",
     "price": 1099.0,
     "img": "Iphone 12 pro max.png",
-    "rating": 4
+    "rating": 4,
+    "path": "product-details.html"
   },
   {
     "name": "Iphone 12 Pro",
