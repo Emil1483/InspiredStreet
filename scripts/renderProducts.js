@@ -56,7 +56,10 @@ const renderProducts = (products) => {
   });
 };
 
-loadJsonData().then(() => {
+/*loadJsonData().then(() => {
   renderProducts(paginate(productsData, 1));
   renderPageButtons();
-});
+});*/
+
+renderProducts(paginate(productsData, 1));
+renderPageButtons();

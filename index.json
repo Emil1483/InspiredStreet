@@ -1,0 +1,74 @@
+{
+    "boklista": {
+        "barnebøker": {
+            "bok1":{
+                "ISBN": "9788205479692",
+                "forfatter": "Roald Dahl",
+                "forlag": "Gyldendal",
+                "tittel": "Charlie og sjokoladefabrikken",
+                "utgitt": "2015",
+                "bilde":"CharlieSjokoladefarbikken.png"
+            },
+            "bok2":{
+                "ISBN": "9788205478183",
+                "forfatter": "Roald Dahl",
+                "forlag": "Gyldendal",
+                "tittel": "Matilda",
+                "utgitt": "2015",
+                "bilde":"Matilda.png"
+            },
+            "bok3":{
+                "ISBN": "9788205479685",
+                "forfatter": "Roald Dahl",
+                "forlag": "Gykdendal",
+                "tittel": "Heksene",
+                "utgitt": "2017",
+                "bilde":"Heksene.png"
+            }
+        },      
+        "krim": {
+            "bok1":{
+                "ISBN": "9788203268656",
+                "forfatter": "Jo Nesbø",
+                "forlag": "Aschehoug",
+                "tittel": "Kongeriket",
+                "utgitt": "2020",
+                "bilde":"Kongeriket.png"
+            },
+            "bok2":{
+                "ISBN": "9788203266645",
+                "forfatter": "Jo Nesbø",
+                "forlag": "Aschehoug",
+                "tittel": "Kniv",
+                "utgitt": "2020",
+                "bilde":"Kniv.jpg"
+            },
+            "bok3":{
+                "ISBN": "9788203366437",
+                "forfatter": "Jo Nesbø",
+                "forlag": "Aschehoug",
+                "tittel": "Sjalusimannen og andre fortellinger - fortellinger",
+                "utgitt": "2021",
+                "bilde":"Sjalusimannen.jpg"
+            }
+        },
+        "Romantikk": {
+            "bok1":{
+                "ISBN": "9788202702410",
+                "forfatter": "Lucinda Riley",
+                "forlag": "Cappelen Damm",
+                "tittel": "Den savnede søsteren",
+                "utgitt": "2021",
+                "bilde":"DenSavnedesøsteren.png"
+            },
+            "bok2":{
+                "ISBN": "9788202702410",
+                "forfatter": "Lucinda Riley",
+                "forlag": "Pan Macmillan",
+                "tittel": "The Sun Sister",
+                "utgitt": "2019",
+                "bilde":"TheSunSister.jpg"
+            }
+        }
+    }
+}

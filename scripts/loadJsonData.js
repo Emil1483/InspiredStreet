@@ -1,5 +1,5 @@
-let productsData = [];
-let actualProducts = [];
+let productsData = data;
+let actualProducts = data;
 
 const loadJsonData = async () => {
   try {
