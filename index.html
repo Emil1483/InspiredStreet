@@ -61,17 +61,7 @@
 <!-------------- Our Featured Products -------------->
   
   
-  <div class="small-container">
-        <h2 class="title">Featured Products</h2>
-           <div class="row featured-products" id='featured-products'>
-            
-           </div>
-        <h2 class="title">Latest Products</h2>
-             <div class="row latest-products">
-                
-           </div>
-
-       </div>
+  <div class="small-container" id="books"></div>
        
 <!----------offer--------------->
   
@@ -231,9 +221,30 @@
     
 </script>
 
-<script src="scripts/data.js" type="text/javascript"> </script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js%22%3E</script>
 
-<script src="scripts/main.js">
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyBvOzBU8hXeys1HExyOQP2VoYapUGBOXNU",
+        authDomain: "ghostbusters-f259b.firebaseapp.com",
+        databaseURL: "https://ghostbusters-f259b-default-rtdb.firebaseio.com/",
+        projectId: "ghostbusters-f259b",
+        storageBucket: "ghostbusters-f259b.appspot.com",
+        messagingSenderId: "575684219863",
+        appId: "1:575684219863:web:063ca4cbb5637ceb16b192"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+</script>
+
+
+<script src="scripts/main.js" type="text/javascript"/>
 
 </script>
 

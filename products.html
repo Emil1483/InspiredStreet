@@ -40,21 +40,11 @@
       <div class="row">
         <h1>Search products</h1>
         <form action="" class="search-form" id="search-form">
-          <input type="text" name="search" id="" />
+          <input type="text" name="search" id="search" />
           <button type="submit">
             <i class="fa fa-search"></i>
           </button>
         </form>
-      </div>
-      <div class="row row-2">
-        <h2>All Products</h2>
-        <select id="sort-selector">
-          <option>default sorting</option>
-          <option>sort by price</option>
-          <option>sort by popularity</option>
-          <option>sort by rating</option>
-          <option>sort by sale</option>
-        </select>
       </div>
 
       <div id="products" class="row"></div>
@@ -102,13 +92,7 @@
     </div>
 
     <!-------------js for toggle menu-------------->
-    <script src="./scripts/data.js"></script>
-    <script src="./scripts/paginate.js"></script>
-    <script src="./scripts/loadJsonData.js"></script>
-    <script src="./scripts/renderProducts.js"></script>
-    <script src="./scripts/sortProducts.js"></script>
-    <script src="./scripts/searchFormHandler.js"></script>
-    <script src="./scripts/eventListeners.js"></script>
+    <script src="./scripts/loadProducts.js"></script>
     <script>
       var MenuItems = document.getElementById("MenuItems");
 
